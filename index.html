@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <!-- <div class="outer"> -->
+  <section class="container">
+    <form>
+      <h2>Sign Up</h2>
+      <div class="radio">
+       <section class="top-buttons">
+        <!-- <div class="radio"> -->
+          <fieldset class="rad">
+            <input type="radio" name="acctype" value="admin">
+            <label for="admin">admin</label>
+          </fieldset>
+          <fieldset class="rad">
+            <input type="radio" name="acctype" value="personal" checked>
+            <label for="personal">personal</label>
+          </fieldset>
+          <fieldset class="rad">
+           <input type="radio" name="acctype" value="guest">
+           <label for="guest">guest</label>
+         </fieldset>
+       </section>
+        </div>
+       <!-- <div class="form-group"> -->
+        <section class="form-info">
+         <fieldset class="form-group entry">
+          <label for="name">name</label>
+          <input type="text" class="form-control" name="name" value="">
+         </fieldset>
+         <fieldset class="form-group entry">
+           <label for="password">password</label>
+           <input type="password" class="form-control" name="password" value="">
+         </fieldset>
+        </section>
+        <section class="form-info">
+         <fieldset class="form-group entry">
+           <label for="email">email address</label>
+           <input type="email" class="form-control" name="email" value="">
+         </fieldset>
+          <fieldset class="form-group entry">
+           <label for="pw2">confirm password</label>
+           <input type="password" class="form-control" name="pw2" value="">
+         </fieldset>
+        </section>
+         <div class="bottom">
+          <section class="picture">
+           <label for="exampleInputFile">profile picture</label>
+           <input type="file" id="exampleInputFile">
+          </section>
+          <section class="sign-up">
+            <div class="bn-size">
+           <label for="submit"></label>
+          <button type="button" id="submit" name="button">sign up</button>
+         </div>
+          </section>
+        </div>
+      </form>
+  </section>
+
+ </body>
+</html>

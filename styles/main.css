@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fbda31;
+}
+
+.form-group{
+  text-align: left;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.container{
+  background-color: #ffffff;
+  padding: 25px 25px;
+  text-align: center;
+  margin: 40px auto;
+  /*min-height: 100vh;*/
+  max-width: 760px;
+}
+
+.top-buttons {
+  display: flex;
+  border-style: none;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+}
+
+.rad{
+ flex: 1 1 0;
+ margin: 20px 0;
+}
+
+.radio label{
+  padding-left: 0;
+}
+
+.form-info{
+  float: left;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.picture{
+ margin-top: 30px;
+ clear:left;
+ margin-left: 25px;
+ text-align: left;
+ flex: 1 1 50%;
+}
+
+.bottom{
+  clear: left;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: initial;
+}
+
+.sign-up{
+  flex: 1 1 43%;
+  margin-right: 25px;
+}
+
+button{
+  height: 40px;
+  border-color: #000;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 3px;
+  width: 100%;
+}
